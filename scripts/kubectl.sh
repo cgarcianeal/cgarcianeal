@@ -14,3 +14,8 @@ kubectl delete pods <pod>  -n <ns> --grace-period=0 --force
 # find api short name
 kubectl api-resources -o wide
 
+# pulling node summary
+kubectl get --raw "/api/v1/nodes/<node-name>/proxy/stats/summary"
+
+# get actual shell on k8s nod, not just a debug pod
+kubectl node-shell <node-name>
