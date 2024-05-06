@@ -19,3 +19,7 @@ kubectl get --raw "/api/v1/nodes/<node-name>/proxy/stats/summary"
 
 # get actual shell on k8s nod, not just a debug pod
 kubectl node-shell <node-name>
+
+# crictl
+# https://kubernetes.io/docs/tasks/debug/debug-cluster/crictl/
+crictl -h
