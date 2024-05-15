@@ -135,6 +135,7 @@ alias kar="kubectl argo rollouts"
 export KUBECTL_ISTIO_TYPES="$(kubectl api-resources --namespaced --verbs list -o name | grep istio | tr "\n" , | rev | cut -c 2- | rev )";
 alias kgi="kubectl get $KUBECTL_ISTIO_TYPES --show-kind"
 alias kg="kubectl get"
+alias kc="kubectx"
 
 alias hg="history | grep"
 alias sortips="sort -t . -k 1,1n -k 2,2n -k 3,3n -k 4,4n" 
