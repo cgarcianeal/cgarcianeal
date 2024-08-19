@@ -1,3 +1,8 @@
+# work
+kustomize
+git
+kubectx
+istioctl
 neofetch
 zstd
 tree
@@ -7,10 +12,13 @@ wget
 yq
 wireshark
 iptables
-istioctl
-figlet
-kustomize
-bluesnooze
-git
+
+# productivity
+--cask iterm2
+itsycal
+rectangle
+
+# bonus
 stats
-kubectx
+bluesnooze
+figlet
